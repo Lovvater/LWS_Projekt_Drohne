@@ -131,7 +131,7 @@ Drone.connect()
 # Start Camera Display Stream
 Drone.streamon()
 
-while True:
+while kp.getKey("ESC")==False:
     # Get The Return Value And Stored It On Variable
     keyValues = getKeyboardInput()
 
