@@ -41,5 +41,7 @@ def getKey(key):
         return keys[pygame.K_h]
     elif key == "j":
         return keys[pygame.K_j]
+    elif key == "p":
+        return keys[pygame.K_p]
     else:
         return False
