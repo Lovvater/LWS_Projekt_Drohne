@@ -6,14 +6,6 @@ def init():
     # Setze das Anzeigefenster auf 400x400 Pixel
     fenster = pygame.display.set_mode((400, 400))
 
-def main():
-    # Füge hier deine Haupt-Programmschleife ein
-    laufend = True
-    while laufend:
-        for ereignis in pygame.event.get():
-            if ereignis.type == pygame.QUIT:
-                laufend = False
-
 def getKey(key):
     # Abfrage der Tastatureingabe
     # Du kannst hier die gewünschte Logik zur Erfassung der Tastatureingaben implementieren.
@@ -43,5 +35,11 @@ def getKey(key):
         return keys[pygame.K_z]
     elif key == "f":
         return keys[pygame.K_f]
+    elif key == "g":
+        return keys[pygame.K_g]
+    elif key == "h":
+        return keys[pygame.K_h]
+    elif key == "j":
+        return keys[pygame.K_j]
     else:
         return False
