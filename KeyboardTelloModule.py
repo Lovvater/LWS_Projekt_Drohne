@@ -44,6 +44,6 @@ def getKey(key):
     elif key == "p":
         return keys[pygame.K_p]
     elif key == "ESC":
-    return keys[pygame.K_ESCAPE]
+        return keys[pygame.K_ESCAPE]
     else:
         return False
